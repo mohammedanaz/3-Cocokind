@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.top-container{
+    background-color: #f7f4ec;
+}
+
+
+
+header{
+    background-color: black;
+    height: 25px;
+    display: flex;
+    color: #f7f4ec;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    background-color: #f7f4ec;
+    justify-content: space-between;
+    height: 58px;
+    align-items: center;  
+    border-bottom:solid;
+    border-width: 1px;
+}
+
+nav li{
+        display: inline;
+}
+
+.cocokind{
+    text-decoration: none;
+    color: #282828;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 65px;
+}
+
+nav li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #282828;
+    font-size: 14px;
+    padding-right: 12px;
+    font-weight:700;   
+}
+
+nav li span{
+    color: #282828;
+    padding-left: 5px;
+}
+
+.nav-right-icon{
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13px;
+
+}
+
+.nav-right-icon img{
+    width: 28px;
+   
+}
+
+.topsec-1{
+    background-image: url(../img/topsec-1-Bg.webp);
+   
+    background-size: cover;
+    height: 535px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.topsec-1-div-1{
+  width: 40%;
+  padding-left: 60px;
+  padding-top: 145px;
+  
+}
+
+.topsec-1-div-1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.topsec-1-a-1{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #282828;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.topsec-1-a-2{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #282828;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+  
+}
+
+.topsec-1-button-1{
+    background-color: black;
+    color: white;
+    padding: 13px 119px;
+    border-radius: 3px;
+    margin-left: 78px;
+}
+
+.topsec-2{
+    background-color: #f7f4ec;
+
+}
+
+.topsec-2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.topsec-2-icons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+
+.topsec-2-icons a{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #282828;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.topsec-2-icons img{
+    background-color: #ede9dd;
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.topsec-2-icons img:hover{
+    border: solid;
+    border-color: #282828;
+    font-family: ;
+}
+
+.topsec-3{
+    background-color:#f7f4ec ;
+    height: 575px;
+
+    position: relative;
+}
+
+
+.topsec-3-a-1{
+    box-sizing: border-box;
+    background-color:#f7f4ec ;
+    width: 300px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: #282828;
+    border-radius: 15px;
+    border-width: 1px;
+
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 160px;
+}
+
+.topsec-3-a-2{
+    background-color:#f7f4ec ;
+    width: 300px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: #282828;
+    border-radius: 15px;
+    border-width: 1px;
+
+    position: absolute;    
+    z-index: 2;
+    left: 115px;
+    top: 104px;
+}
+
+.topsec-3-a-3{
+    background-color:#f7f4ec ;
+    width: 290px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: #282828;
+    border-radius: 15px;
+    border-width: 1px;
+
+    position: absolute;    
+    z-index: 3;
+    left: 255px;
+    top: 84px;
+}
+
+.topsec-3-a-4{
+    background-color:#f7f4ec ;
+    width: 310px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: #282828;
+    border-radius: 15px;
+    border-width: 1px;
+
+    position: absolute;    
+    z-index: 4;
+    left: 470px;
+    top: 27px;
+}
+
+.topsec-3-a-5{
+    background-color:#f7f4ec ;
+    width: 330px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: #282828;
+    border-radius: 15px;
+    border-width: 1px;
+
+    position: absolute;    
+    z-index: 3;
+    left: 670px;
+    top: 84px;
+}
+
+.topsec-3-a-6{
+    background-color: #f7f4ec ;
+    width: 300px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: #282828;
+    border-radius: 15px;
+    border-width: 1px;
+
+    position: absolute;    
+    z-index: 2;
+    left: 850px;
+    top: 104px;
+}
+
+.topsec-3-a-7{
+    box-sizing: border-box;
+    background-color:#f7f4ec ;
+    width: 265px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: #282828;
+    border-radius: 15px;
+    border-width: 1px;
+
+    position: absolute;
+    z-index: 1;
+    left: 933px;
+    top: 160px;
+}
+
+
+
+.topsec-3-a-1 .topsec-3-a-product-img{
+    width: 30%;
+    height: 3%;
+}
+
+.topsec-3-a-2 .topsec-3-a-product-img{
+    width: 75%;
+    height: 33%;
+    padding-right: 100px;
+}
+
+.topsec-3-a-3 .topsec-3-a-product-img{
+    width: 55%;
+    height: 50%;
+}
+
+.topsec-3-a-4 .topsec-3-a-product-img{
+    width: 55%;
+    height: 50%;
+}
+
+.topsec-3-a-4-bar{
+    background-color: #f7f4ec;
+    padding: 5px 60px;
+    border: solid;
+    border-color: #282828;
+    border-radius: 25px;
+    border-width: 1px;
+}
+
+.topsec-3-a-5 .topsec-3-a-product-img{
+    width: 50%;
+    height: 40%;
+    margin-left: 75px;
+}
+
+.topsec-3-a-6 .topsec-3-a-product-img{
+    width: 45%;
+    height: 26%;
+    margin-left: 100px;
+
+}
+
+.topsec-3-a-7 .topsec-3-a-product-img{
+    width: 30%;
+    height: 3%;
+}
+
+/* COMMON PROPERTIES STARTS FOR TOPSEC-3 */
+
+.top-button{
+    
+    color: #E56B54;
+    font-size: 10px;
+    margin-left: 200px;
+    margin-top: 15px;
+    padding: 1px 5px;
+    border: solid;
+    border-color: #E56B54;
+    border-radius: 20px;
+    border-width: 1px;
+}
+.topsec-3-a-para-1{
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.topsec-3-a-para-2{
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.topsec-3-staricon img{
+    width: 20px;
+}
+
+.topsec-3-staricon p{
+    display: inline;
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-2-div{
+    padding-top: 20px;
+}
+
+.topsec-3-a-button-2{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+.topsec-3-a-button-2 span{
+    text-decoration: line-through;
+}
+
+/* COMON PROPERTIES FOR SEC-3 ENDS */
+
+.topsec-4{
+    background-color: #ede9dd;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-color: #282828;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 0 80px;
+    padding: 64px 0px;
+
+}
+
+.topsec-4-para-1{
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.topsec-4-para-2{
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.topsec-4-icons{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.topsec-4-icons-1 img{
+    width: 75px;
+}
+
+.topsec-4-icons-2 img{
+    width: 55px;
+}
+
+.topsec-4-icons-3 img{
+    width: 55px;
+}
+
+.topsec-4-icons-4 img{
+    width: 55px;
+}
+
+.topsec-5{
+    background-color: #f7f4ec ;
+    
+}
+
+.topsec-5 p{
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.topsec-5-flex-1{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    justify-content: space-evenly;
+}
+
+.topsec-5-flex-1-sub{
+    width: 328px;
+    height: 582px;
+    text-align: center;
+    border: solid;
+    border-color: #282828;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.topsec-5-flex-1-sub img{
+    
+    width: 100%;
+    height: 68%;
+    border-radius: 5px;
+}
+
+.topsec-5-flex-1-sub-button-1-div{
+    padding: 0px 15px;
+    padding-top: 60px;
+}
+
+.topsec-5-flex-1-sub-button-1{
+    background-color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+.topsec-3-staricon img{
+    width: 20px;
+}
+
+.topsec-6{
+    background-color: #ede9dd;
+    height: 423px;
+    margin: 0px 80px;
+    display: flex;
+    border: solid;
+    border-color: #282828;
+    border-radius: 10px;
+    border-width: 1px;
+
+}
+
+.topsec-6 a{
+    width: 50%;
+}
+
+.topsec-6 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.topsec-6-flex-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 121px 40px;
+}
+
+.topsec-6-flex-1-para-1{
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+    padding-bottom: 20px;
+}
+
+.topsec-6-flex-1-para-2{
+    color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.topsec-6-flex-1-button-1-div{
+    padding-top: 20px;
+}
+
+.topsec-6-flex-1-button-1{
+    background-color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px 80px;
+    color: white;
+    border-radius: 3px;
+}
+
+.topsec-7{
+    background-color: #d0deec;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+.topsec-7-para-1{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 12px;
+    margin-left: 59px;
+}
+
+.topsec-7-radio-1{
+    width: 580px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 75px;
+}
+
+.topsec-7-radio-1 input[type="radio"]{
+    cursor: pointer;
+}
+
+.topsec-7-radio-1 label{
+    cursor: pointer;
+}
+
+.topsec-7-radio-1 label{
+    padding-right: 20px;
+}
+
+.topsec-7-textinput-1{
+    padding-left: 200px;
+}
+
+.topsec-7-textinput-1 input{
+    background-color: #d0deec;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 725px;
+    height: 60px;
+    border-width: 0px;
+    padding-left: 15px;
+    
+}
+
+.topsec-7-textinput-1 label{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #282828;
+    border: solid;
+    border-color: #282828;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 18px 65px 19px 2px;
+}
+
+.topsec-8-main{
+    background-color: #d0deec;
+    padding-top: 35px;
+    padding-bottom: 55px;
+}
+
+.topsec-8{
+    background-color: #d0deec;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+    width: 860px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.topsec-8-para-1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.topsec-8-para-1 h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.topsec-8 .topsec-8-logos{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+.topsec-8-logos img{
+    width: 40px;
+    padding-right: 10px;
+}
+
+.topsec-8-cocokind{
+    grid-area: 3 / 1 / span 1 / span 3;
+    
+}
+
+.topsec-8-cocokind a{
+    display: block;
+    text-decoration: none;
+    color: #282828;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.topsec-8 p{
+    display: inline-block;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.topsec-8 span img{
+    width: 10px;
+}
+
+.copyright{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 480px;
+    font-size: 14px;
+}
+
+.copyright img{
+    width: 10px;
+}
+
